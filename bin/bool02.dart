@@ -6,7 +6,6 @@
     Returns:
         bool
 */
-import 'bool03.dart';
 
 bool func(int a) {
   return a == 7;
