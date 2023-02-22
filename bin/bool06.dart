@@ -7,7 +7,7 @@
         bool
     */
 bool func(int a) {
-  return a.isEven;
+  return a==10;
 }
 
 void main() {
