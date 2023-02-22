@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool func(int a) {
+  return a.isEven;
+}
 
-void main() {}
+void main() {
+  print(func(10));
+}
