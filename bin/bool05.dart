@@ -6,10 +6,9 @@
     Returns:
         bool
     */
-import 'dart:async';
 
 bool func(int a) {
-  return a.isOdd;
+  return a != 0;
 }
 
 void main() {
