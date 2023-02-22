@@ -6,5 +6,12 @@
     Returns:
         bool
     */
+import 'dart:async';
 
-void main() {}
+bool func(int a) {
+  return a.isOdd;
+}
+
+void main() {
+  print(func(5));
+}
