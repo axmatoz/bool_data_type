@@ -7,9 +7,9 @@
         bool
     */
 bool func(int b) {
-  return b == 0;
+  return b > 0;
 }
 
 void main() {
-  print(func(4));
+  print(func(5));
 }
