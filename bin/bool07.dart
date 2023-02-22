@@ -7,5 +7,12 @@
     Returns:
         bool
     */
+import 'bool01.dart';
 
-void main() {}
+bool fubc(int a, int b) {
+  return a == b;
+}
+
+void main() {
+  print(func(10, 10));
+}
