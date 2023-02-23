@@ -6,10 +6,10 @@
     Returns:
         bool
     */
-bool func(int b) {
-  return b > 0;
+bool func(int a) {
+  return a > 0;
 }
 
 void main() {
-  print(func(0));
+  print(func(5));
 }
